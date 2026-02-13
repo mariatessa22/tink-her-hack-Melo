@@ -1,0 +1,202 @@
+/* --- GLOBAL VARIABLES --- */
+:root {
+  --sage-dark: #556b2f;
+  --sage-medium: #8fbc8f;
+  --sage-light: #d6e8d6;
+  --cream: #fdfcf0;
+  --white: #ffffff;
+  --text-main: #2c3e50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  background-color: var(--cream);
+  color: var(--text-main);
+  background-image: radial-gradient(var(--sage-medium) 1px, transparent 1px);
+  background-size: 20px 20px;
+  min-height: 100vh;
+}
+
+/* --- LAYOUT --- */
+.app-container {
+  max-width: 600px; /* Back to the cozy width */
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* --- HEADER --- */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--sage-dark);
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  color: var(--sage-medium);
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* --- TABS --- */
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.tabs button {
+  background: white;
+  border: 2px solid var(--sage-medium);
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-family: inherit;
+  font-weight: bold;
+  color: var(--sage-medium);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tabs button.active {
+  background-color: var(--sage-medium);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(85, 107, 47, 0.2);
+}
+
+/* --- JOURNAL & TRACKERS --- */
+.journal-container, .trackers-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.scrapbook-card, .tracker-box {
+  background: white;
+  border: 2px dashed var(--sage-medium); /* STITCHED LOOK */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--sage-dark);
+  margin-bottom: 15px;
+}
+
+/* --- INPUTS (THE FIX: BLACK TEXT) --- */
+textarea, input[type="text"], input[type="number"] {
+  width: 100%;
+  border: none;
+  background: var(--cream);
+  padding: 15px;
+  border-radius: 15px;
+  font-family: inherit;
+  resize: none;
+  color: #000000; /* PURE BLACK TEXT */
+  font-size: 0.95rem;
+}
+
+textarea:focus, input:focus {
+  outline: 2px solid var(--sage-medium);
+  background: white;
+}
+
+/* --- PHOTO UPLOAD (THE FIX: WORKING UPLOAD) --- */
+.photo-upload-area {
+  width: 100%;
+  height: 200px;
+  background-color: var(--sage-light);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.upload-label {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-label span {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: var(--sage-dark);
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.image-preview-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.uploaded-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.remove-photo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 50%;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* --- TRACKER GRIDS --- */
+.trackers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.mood-box { grid-column: span 2; text-align: center; }
+.mood-buttons { display: flex; justify-content: center; gap: 20px; }
+.checklist-box ul { list-style: none; padding: 0; }
+.checklist-box li { padding: 8px 0; cursor: pointer; display: flex; align-items: center; gap: 10px;}
+.checklist-box li.done { text-decoration: line-through; opacity: 0.6; }
+.budget-row { display: flex; justify-content: space-between; margin-top: 10px; }
+.budget-row input { width: 70px; text-align: center; }
