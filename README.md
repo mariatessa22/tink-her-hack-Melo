@@ -1,436 +1,173 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-<p align="center">
-  <img src="./img.png" alt="Project Banner" width="100%">
-</p>
-
-# [Project Name] 🎯
-
-## Basic Details
-
-### Team Name: [Name]
-
-### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-
-### Hosted Project Link
-[mention your project hosted link here]
-
-### Project Description
-[2-3 lines about what your project does]
-
-### The Problem statement
-[What problem are you solving?]
-
-### The Solution
-[How are you solving it?]
+# Melo 📝✨  
+### A Minimal, Offline-First Digital Journal for Mental Clarity  
 
 ---
 
-## Technical Details
+## 👩‍💻 Basic Details
 
-### Technologies/Components Used
+**Team Name:** Skye  
 
-**For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
-
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+**Team Members:**  
+- **Hima R** – LBS Institute of Technology for Women, Trivandrum  
+- **Maria Tessa S E** – LBS Institute of Technology for Women, Trivandrum  
 
 ---
 
-## Features
+## 🌐 Hosted Project Link
 
-List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+🔗 [https://tink-her-hack-melo-1.onrender.com](https://tink-her-hack-melo-1.onrender.com)  
+Deployed on **Render**  
 
 ---
 
-## Implementation
+## 📖 Project Description
 
-### For Software:
+Melo is a lightweight, privacy-focused digital journaling web application designed to help users reflect, process emotions, and build healthier mental habits — without login barriers, subscriptions, or distractions.  
 
-#### Installation
-```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
-```
-
-#### Run
-```bash
-[Run commands - e.g., npm start, python app.py]
-```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
+It is an offline-first web app that ensures accessibility, simplicity, and a calm journaling experience.
 
 ---
 
-## Project Documentation
+## 🧠 Problem Statement
 
-### For Software:
+Talking about what feels wrong about you is hard.  
 
-#### Screenshots (Add at least 3)
+Self-care tools can be inaccessible or overwhelming.  
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+**Is your mind your biggest enemy?  
+Taking care of your head shouldn’t be hard.**
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+In an era of constant digital stimulation, mental overload, and social media pressure, reflective practices like journaling are more important than ever. However, access to safe and simple digital tools for self-expression is often limited by:
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+- Mandatory account creation  
+- Data privacy concerns  
+- Internet dependency  
+- Over-engineered platforms  
 
-#### Diagrams
+This disproportionately affects:
 
-**System Architecture:**
-
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
-
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+- Students in low-connectivity regions  
+- Individuals concerned about data privacy  
+- Users who cannot afford premium journaling apps  
+- People seeking distraction-free digital spaces  
 
 ---
 
-### For Hardware:
+## 💡 The Solution
 
-#### Schematic & Circuit
+Melo addresses these challenges by being:
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+### 🔐 Privacy-First  
+- No login  
+- No tracking  
+- No data collection  
+- Entries remain stored locally on the user’s device  
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+### 🌐 Offline-Accessible  
+After the initial load, Melo works without internet — making it usable in rural or unstable network environments.
 
-#### Build Photos
+### 🧘 Mental-Health Oriented  
+By removing friction and complexity, Melo encourages daily reflection — a practice shown to improve:
 
-![Team](Add photo of your team here)
+- Emotional regulation  
+- Stress management  
+- Self-awareness  
 
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
-
-## Additional Documentation
-
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
+### 📵 Digital Minimalism Advocacy  
+Unlike attention-driven apps, Melo promotes intentional technology use rather than engagement addiction.
 
 ---
 
-### For Mobile Apps:
+## 🌍 Why This Matters (Research-Backed)
 
-#### App Flow Diagram
+According to the **[World Health Organization](https://www.who.int/)**, depression and anxiety disorders are among the leading causes of disability worldwide, especially among adolescents and young adults.
 
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
+Research by psychologist **James W. Pennebaker** demonstrates that expressive writing:
 
-#### Installation Guide
+- Reduces stress  
+- Improves emotional processing  
+- Enhances psychological resilience  
+- Improves cognitive clarity  
 
-**For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
+Even short, structured journaling sessions have measurable mental-health benefits.  
 
-**For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
-
-**Building from Source:**
-```bash
-# For Android
-flutter build apk
-# or
-./gradlew assembleDebug
-
-# For iOS
-flutter build ios
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
+By lowering barriers to journaling, Melo enables consistent self-reflection — an evidence-supported tool for emotional well-being.
 
 ---
 
-### For Hardware Projects:
+## 🛠 Technical Details
 
-#### Bill of Materials (BOM)
+### Languages
+- JavaScript  
+- HTML5  
+- CSS3  
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
+### Framework & Build Tool
+- React  
+- Vite  
 
-**Total Estimated Cost:** ₹[Amount]
-
-#### Assembly Instructions
-
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
+### Tools
+- Git & GitHub  
+- VS Code  
+- Deployment via Render  
 
 ---
 
-### For Scripts/CLI Tools:
+## ✨ Features
 
-#### Command Reference
-
-**Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
-
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
-
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
-
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
-**Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
-
-**Example 2: Advanced Usage**
-
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
-
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
+- 📝 Create and edit journal entries effortlessly  
+- 📖 View and revisit saved reflections anytime  
+- 💾 Offline-first local storage ensures privacy and accessibility  
+- ⚡ Fast, lightweight performance with Vite-optimized build  
+- 📱 Fully responsive design for mobile and desktop  
+- 🔒 Privacy-focused: no login, no tracking, no data collection  
+- 🎨 Minimalist, clean, and aesthetically designed UI that reduces cognitive load and promotes calm reflection  
 
 ---
 
-## Project Demo
+## 🏗 System Architecture
 
-### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
+System Architecture
+Melo is built as a responsive, client-side Single Page Application (SPA). It prioritizes user privacy and simplicity by utilizing a Local-First architecture, meaning all data resides on the user's device and is not sent to an external server.
 
-*Explain what the video demonstrates - key features, user flow, technical highlights*
+1. 🛠️ Tech Stack
+Frontend Framework: React.js (v18+)
 
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
+Build Tool: Vite (for fast HMR and optimized bundling)
 
----
+Language: JavaScript (ES6+) / JSX
 
-## AI Tools Used (Optional - For Transparency Bonus)
+Styling: CSS3 with CSS Variables (Custom Sage Green Palette)
 
-If you used AI tools during development, document them here for transparency:
+Icons: Lucide React
 
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
+Data Persistence: Browser LocalStorage API
 
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
+Deployment: Render / Vercel
 
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
+2. 🧩 Component Architecture
+The application is structured around a modular component system to ensure maintainability and reusability.
 
-**Percentage of AI-generated code:** [Approximately X%]
+Core Hierarchy:
+App.jsx: The root component that handles global state and routing between the Landing Page and the Main Dashboard.
 
-**Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
+Landing.jsx: The initial "Music Player" style entry screen that sets the aesthetic tone.
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
+Dashboard.jsx: The main container that manages the navigation tabs (Daily, Self-Care, Habits, Budget, Dates).
 
----
+Feature Modules:
+JournalScrapbook: A grid-based layout containing individual "Card" components (HappyMoments, ReflectiveTimes, ReleaseLetGo) that accept text and image inputs.
 
-## Team Contributions
+HabitTracker: A dynamic table allowing users to toggle boolean states for daily habits.
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+BudgetManager: A reactive calculator that computes savings based on Income vs. Expenses inputs.
 
----
+CalendarWidget: An interactive calendar for logging important dates and visualizing the month.
 
-## License
+DataController: Handles the JSON serialization for the Export/Import backup functionality.
 
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
 
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
 
----
+### Architecture Overview
 
-Made with ❤️ at TinkerHub
+
