@@ -1,5 +1,5 @@
 # Melo 📝✨  
-### A Minimal, Offline-First Digital Journal for Mental Clarity  
+### A Minimal, Offline-First Digital Journal for Mental Wellness
 
 ---
 
